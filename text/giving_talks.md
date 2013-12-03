@@ -23,6 +23,14 @@ introduced the technique. This is followed by yet another cell to plot a subset
 of the data, so he can tweak the plotting parameters, such as line width and
 line color and re-execute again until getting a desirable result.
 
+As a final check before class, X can clear the output of all intermediate
+results which have been weaved in, restart the underlying computational kernel
+(to clear it out all of the computational state) and re-run the whole notebook
+in one go, to verify that all of the code cells run in the right order and
+produce output without errors. Once satisfied that everything still works, he
+can clear everything out one last time, so he can run the notebook a-fresh in
+front of his students.
+
 Most importantly, with the boilerplate code out of the way, X does not need to
 anticipate *all* of the concept the students may find confusing.
 
